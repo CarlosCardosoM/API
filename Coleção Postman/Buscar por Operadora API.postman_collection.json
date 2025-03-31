@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "18c41c09-2efd-41eb-835b-ae89ac344d2f",
+		"name": "Buscar por Operadora API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28385760"
+	},
+	"item": [
+		{
+			"name": "Buscar Operadora",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/buscar?termo=OPERADORA",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "OPERADORA"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
